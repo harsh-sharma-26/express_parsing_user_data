@@ -1,0 +1,14 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Parsing user data form frontend and storing it on backend.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harsh Sharma",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
