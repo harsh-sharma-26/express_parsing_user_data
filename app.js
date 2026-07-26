@@ -28,7 +28,6 @@ app.get("/users", (req, res) => {
   const filePath = path.join(__dirname, "data", "users.json");
   const fileData = fs.readFileSync(filePath);
   const existingUsers = JSON.parse(fileData);
-  // console.log(existingUsers);
   let list_of_users = "";
   for (const user of existingUsers) {
     list_of_users += `<ul><li>${user}</li></ul>`;
